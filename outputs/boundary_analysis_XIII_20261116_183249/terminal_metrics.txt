@@ -1,0 +1,11 @@
+=========================================
+CALCULATED RESULTS
+=========================================
+retained_ratio_x4_shared : 0.9250348248210536
+retained_ratio_x4_nonshared : 0.5596263142314937
+retained_ratio_x5_shared : 0.514949658331594
+retained_ratio_x5_nonshared : 0.35120773190306165
+sfin_attention_shared_mean : 0.08587563904002309
+sfin_attention_nonboundary_mean : 0.030938005167990924
+sfin_attention_mean : 0.05821071350947023
+=========================================

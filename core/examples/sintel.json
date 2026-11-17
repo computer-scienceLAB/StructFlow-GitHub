@@ -1,0 +1,6 @@
+{
+  "dataset": "MPI Sintel Final training",
+  "samples": [
+    {"id": "alley_1_frame_0001", "inputs": ["final_left/alley_1/frame_0001.png", "final_left/alley_1/frame_0002.png", "final_right/alley_1/frame_0001.png", "final_right/alley_1/frame_0002.png"], "flow_gt": "flow/alley_1/frame_0001.flo", "figure_status": "illustrative; not claimed as exact manuscript reproduction"}
+  ]
+}

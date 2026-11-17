@@ -1,0 +1,10 @@
+torch==2.4.0
+torchvision==0.19.0
+numpy
+Pillow
+scikit-image
+opencv-python
+matplotlib
+imageio
+imageio-ffmpeg
+h5py==3.16.0

@@ -1,0 +1,9 @@
+CALCULATED RESULTS
+=========================================
+shared_boundary_valid_pixels : 17.31%
+shared_boundary_band_share : 51.84%
+flow_only_boundary_valid_pixels : 6.41%
+flow_only_boundary_band_share : 19.20%
+disparity_only_boundary_valid_pixels : 9.67%
+disparity_only_boundary_band_share : 28.96%
+nonboundary_control_valid_pixels : 9.63%
