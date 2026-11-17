@@ -36,12 +36,14 @@ Configure local roots in `dataset_paths.py`.
 
 ## Pretrained Checkpoints
 
-| Dataset / use | Task | Checkpoint |
-| --- | --- | --- |
-| KITTI 2015, Sintel, Table VI KITTI-only flow | Optical Flow | [`kitti15-main-flow.pth.tar`](checkpoints/main-results/flow/kitti15-main-flow.pth.tar) |
-| KITTI 2012 | Optical Flow | [`kitti12-main-flow.pth.tar`](checkpoints/main-results/flow/kitti12-main-flow.pth.tar) |
-| FlyingThings3D / Spring adaptation | Joint flow and disparity | [`flyingthings3d-spring-transfer-flow.pth.tar`](checkpoints/main-results/flow/flyingthings3d-spring-transfer-flow.pth.tar) |
-| KITTI 2015 / Eigen | Depth/Disparity | [`kitti15-main-depth.pth.tar`](checkpoints/main-results/depth/kitti15-main-depth.pth.tar) |
+
+| Dataset / Use | Task | Checkpoint |
+|---|---|---|
+| KITTI 2015, Sintel, Table VI KITTI-only flow | Optical Flow | [kitti15-main-flow.pth.tar]([https://drive.google.com/file/d/FILE_ID_1/view](https://drive.google.com/file/d/1fppqZ2rtIurL0MmjNM6YqjOmk5rjhrup/view?usp=sharing)) |
+| KITTI 2012 | Optical Flow | [kitti12-main-flow.pth.tar]([https://drive.google.com/file/d/FILE_ID_2/view](https://drive.google.com/file/d/1hOxlCeGgD-eTJokk1Ezdqs2NWgnRhNTx/view?usp=sharing)) |
+| FlyingThings3D / Spring adaptation | Joint Flow and Disparity | [flyingthings3d-spring-transfer-flow.pth.tar]([https://drive.google.com/file/d/FILE_ID_3/view](https://drive.google.com/file/d/1-Hf8GJIM7J99VhpcGNl8903OI3tBQMo_/view?usp=sharing)) |
+| KITTI 2015 / Eigen | Depth/Disparity | [kitti15-main-depth.pth.tar]([https://drive.google.com/file/d/FILE_ID_4/view](https://drive.google.com/file/d/1eBvshP-Ek8_xaV_aWOIFVA9h4mp6a1Gu/view?usp=sharing)) |
+
 
 See [checkpoint details](checkpoints/README-checkpoints.md) for the complete mapping.
 
