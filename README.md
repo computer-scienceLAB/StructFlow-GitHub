@@ -12,8 +12,6 @@ The following continuous [KITTI Raw](https://www.cvlibs.net/datasets/kitti/raw_d
 
 *KITTI Demonstration — [Open the full-quality MP4](visualization/videos/kitti_demo_original_flow_disparity_original_hsv.mp4).* 
 
-Recreate it with the command in [README-reproduce.md](README-reproduce.md). See [Visualization Samples](visualization/README.md) for paired local inputs.
-
 ## Installation and Environment
 
 ```bash
