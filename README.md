@@ -8,7 +8,7 @@ StructFlow is an unsupervised joint optical flow and stereo disparity estimation
 
 The following continuous [KITTI Raw](https://www.cvlibs.net/datasets/kitti/raw_data.php) drive visualization uses genuine consecutive stereo frames. Every frame is rendered as **Original | Flow | Disparity** using our StructFlow flow and disparity predictions.
 
-[![KITTI Raw: Original, StructFlow flow, StructFlow disparity](visualization/videos/kitti_demo_original_flow_disparity_original_hsv.gif)](visualization/videos/kitti_demo_original_flow_disparity_original_hsv.mp4)
+[![KITTI Raw: Original, StructFlow flow, StructFlow disparity](visualization/videos/kitti_demo.gif)](visualization/videos/kitti_demo_original_flow_disparity_original_hsv.mp4)
 
 *KITTI Demonstration — [Open the full-quality MP4](visualization/videos/kitti_demo_original_flow_disparity_original_hsv.mp4).* 
 
