@@ -1,14 +1,28 @@
+
 # Visualization Samples
 
-Local-only, correctly paired RGB samples are prepared in this tree and excluded from Git by `.gitignore`.
+This directory is intended for user-provided RGB image samples for visualizing StructFlow optical flow and depth/disparity predictions.
 
-| Dataset | Sample directory | Contents |
-| --- | --- | --- |
-| KITTI 2012 | `kitti2012/` | `000000_10/_11` left/right benchmark pair |
-| KITTI 2015 | `kitti2015/benchmark/` | Requested benchmark frames, including `000018_09`, `000018_10`, `000020_10`, `000100_10`, `000104_12`, `000137_10`, `000147_07`, `000167_10` |
-| KITTI Raw | `kitti2015/raw_drive/`, `raw_long_drive/` | Short sequence plus the 97-frame stereo sequence used by the README demo |
-| Sintel | `sintel/alley_1/`, `temple_2/`, `bamboo_1/` | Requested frames with adjacent stereo frames |
-| FlyingThings3D | `flyingthings3d/C_0001/` | Four consecutive stereo frames |
-| Spring | `spring/0001/` | Four consecutive stereo frames |
+Download the corresponding datasets from their official sources and place the required images in the folders described below.
 
-Run the tested relative-path commands in [README-reproduce.md](../README-reproduce.md). Do not commit or redistribute these dataset-derived files unless the applicable dataset license permits it.
+## Sample Directory Structure
+
+| Dataset | Sample Directory | Required Images |
+|---|---|---|
+| KITTI 2012 | `kitti2012/` | Matching left-camera image pairs (`_10`, `_11`) for optical flow, with corresponding right-camera images for disparity. |
+| KITTI 2015 | `kitti2015/benchmark/` | Matching benchmark image pairs, including selected scene IDs, and corresponding right-camera images for disparity. |
+| KITTI Raw | `kitti2015/raw_drive/`, `kitti2015/raw_long_drive/` | Consecutive frames from the same driving sequence, with synchronized stereo images for disparity and video generation. |
+| MPI Sintel | `sintel/alley_1/`, `sintel/temple_2/`, `sintel/bamboo_1/` | Consecutive RGB frames from the selected sequences, with matching stereo frames when required. |
+| FlyingThings3D | `flyingthings3d/C_0001/` | Consecutive RGB frames from the same scene, including matching left and right camera images. |
+| Spring | `spring/0001/` | Consecutive RGB frames from the same sequence, with corresponding right-camera images. |
+
+## Preparing the Images
+
+1. Download the images from the official dataset sources.
+2. Place the images in their corresponding dataset folders.
+3. For optical flow, provide at least two consecutive frames from the same scene.
+4. For disparity, provide synchronized left and right images when required by the model.
+5. Preserve the original filenames, resolution, and frame ordering.
+6. Do not combine unrelated scenes or sequences.
+7. You may replace the samples with any other compatible frames from the same dataset.
+
