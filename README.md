@@ -289,15 +289,3 @@ python -u core/evaluate_boundary.py --table XIII --device cuda:1
 | GSPN x5 retained ratio | 51.5% | 35.1% non-shared |
 | SFIN attention mean | 0.086 | 0.031 non-boundary |
 
-
-## Citation
-
-Publication metadata is not present in the supplied manuscript. Cite the work as a manuscript until venue, year, and DOI information are available:
-
-```bibtex
-@article{structflow,
-  title={StructFlow: A Unified Guidance Paradigm for Consistent Disparity and Flow Estimation},
-  author={Abdein, Rokia and Li, Wei and Qu, Yingnan and Zhang, Xinyan and Helal, Sumi and Youssef, Moustafa},
-  note={Manuscript}
-}
-```
